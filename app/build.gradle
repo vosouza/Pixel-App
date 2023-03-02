@@ -3,6 +3,10 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+def apiKeyFile = rootProject.file("apikey.properties")
+def apiKeyProperties = new Properties()
+apiKeyProperties.load(new FileInputStream(apiKeyFile))
+
 android {
     namespace 'com.evosouza.pixelapp'
     compileSdk 32
@@ -15,6 +19,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "API_KEY_VALUE", apiKeyProperties["PRIVATE_KEY"]
+        buildConfigField "String", "BASE_URL", "\"https://api.pexels.com/\""
     }
 
     buildTypes {
