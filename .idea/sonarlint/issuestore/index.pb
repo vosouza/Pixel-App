@@ -7,8 +7,6 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 ;
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 y
 Iapp/src/androidTest/java/com/evosouza/pixelapp/ExampleInstrumentedTest.kt,b\4\b45b472b59ae232ccd9266186776a563b200063d
 j
