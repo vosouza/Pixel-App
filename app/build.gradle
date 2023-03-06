@@ -15,7 +15,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('C:\\Users\\vosouza\\Desktop\\AndroidEstudo\\PixelApp\\store\\app_key.jks')
+            storeFile file('\\..\\store\\app_key.jks')
             storePassword '12345678'
             keyAlias 'key0'
             keyPassword '12345678'
