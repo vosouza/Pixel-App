@@ -11,5 +11,11 @@ y
 Iapp/src/androidTest/java/com/evosouza/pixelapp/ExampleInstrumentedTest.kt,b\4\b45b472b59ae232ccd9266186776a563b200063d
 j
 :app/src/test/java/com/evosouza/pixelapp/ExampleUnitTest.kt,e\5\e57dd64f168bc3d809487e10689a287cfd791546
+F
+app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
+g
+7app/src/main/java/com/evosouza/pixelapp/MainActivity.kt,c\7\c7592a1984edd96211c375cd83d1dc2ebfffba40
