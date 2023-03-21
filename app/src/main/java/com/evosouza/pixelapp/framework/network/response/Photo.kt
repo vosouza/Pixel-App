@@ -1,5 +1,7 @@
 package com.evosouza.pixelapp.framework.network.response
 
+import com.evosouza.core.model.PhotoDomain
+import com.evosouza.core.model.SrcDomain
 import com.google.gson.annotations.SerializedName
 
 data class Photo(
@@ -27,28 +29,28 @@ data class Photo(
     val width: Int
 )
 
-//fun Photo.toPhotoDomain(): PhotoDomain =
-//    PhotoDomain(
-//        description = this.alt,
-//        avgColor = this.avgColor,
-//        height = this.height,
-//        id = this.id,
-//        liked = this.liked,
-//        photographer = this.photographer,
-//        photographerId = this.photographerId,
-//        photographerUrl = this.photographerUrl,
-//        srcDomain = SrcDomain(
-//            landscape = this.src.landscape,
-//            large = this.src.large,
-//            large2x = this.src.large2x,
-//            medium = this.src.medium,
-//            original = this.src.original,
-//            portrait = this.src.portrait,
-//            small = this.src.small,
-//            tiny = this.src.tiny,
-//        ),
-//        url = this.url,
-//        width = this.width
-//    )
+fun Photo.toPhotoDomain(): PhotoDomain =
+    PhotoDomain(
+        description = this.alt,
+        avgColor = this.avgColor,
+        height = this.height,
+        id = this.id,
+        liked = this.liked,
+        photographer = this.photographer,
+        photographerId = this.photographerId,
+        photographerUrl = this.photographerUrl,
+        srcDomain = SrcDomain(
+            landscape = this.src.landscape,
+            large = this.src.large,
+            large2x = this.src.large2x,
+            medium = this.src.medium,
+            original = this.src.original,
+            portrait = this.src.portrait,
+            small = this.src.small,
+            tiny = this.src.tiny,
+        ),
+        url = this.url,
+        width = this.width
+    )
 
 

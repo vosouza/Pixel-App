@@ -1,8 +1,10 @@
-package com.evosouza.pixelapp
+package com.evosouza.pixelapp.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-
+import com.evosouza.pixelapp.R
+import dagger.hilt.android.AndroidEntryPoint
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
