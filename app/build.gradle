@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'com.google.gms.google-services'
 }
 apply plugin: 'kotlin-kapt'
 apply plugin: 'dagger.hilt.android.plugin'
@@ -16,10 +15,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('\\..\\store\\app_key.jks')
-            storePassword '12345678'
-            keyAlias 'key0'
-            keyPassword '12345678'
+//            storeFile file('C:\\Users\\vosouza\\Desktop\\AndroidEstudo\\PixelApp\\store\\app_key.jks')
+//            storePassword '12345678'
+//            keyAlias 'key0'
+//            keyPassword '12345678'
         }
     }
 
